@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Cyclist to Velociraptor",
+	"version": "1.0",
+	"description": "Replaces the text 'cyclist' with 'velociraptor'.",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
