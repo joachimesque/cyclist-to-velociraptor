@@ -1,17 +1,26 @@
 # Cyclist to Velociraptor
 
-Chrome extension that replaces occurrences of 'cyclist' or 'bicyclist' with 'velociraptor'
+This browser extension replaces occurrences of 'cyclist' or 'bicyclist' with 'velociraptor'
 
-[Direct download of crx file](https://github.com/joachimesque/cyclist-to-velociraptor/blob/master/CyclistToVelociraptor.crx?raw=true)
 
 ## Installation
 
-In Chrome, choose Window > Extensions. Drag CyclistToVelociraptor.crx into the page that appears.
+### Google Chrome
+
+[Download the CRX file](https://github.com/joachimesque/cyclist-to-velociraptor/blob/master/CyclistToVelociraptor-chrome.crx?raw=true)
+
+Choose Window > Extensions. Drag the CRX onto the page.
+
+### Mozilla Firefox
+
+[Download the XPI file](https://github.com/joachimesque/cyclist-to-velociraptor/blob/master/CyclistToVelociraptor-firefox.xpi?raw=true)
+
+Choose Tools > Add-ons and select the *Extensions* tab. Drag-and-drop the XPI file onto the page.
 
 ## Credit
 
-This is based on the excellent Cloud to Butt extension.
-You can find it here : https://github.com/panicsteve/cloud-to-butt
+This is based on Steven Frank's excellent Cloud to Butt Chrome extension : https://github.com/panicsteve/cloud-to-butt
+The Firefox code was adapted from Chris Wright's adaptation : https://github.com/DaveRandom/cloud-to-butt-mozilla
 
 It started with this Metafilter comment :
 > These days, whenever I see one of these cycling threads where everyone jumps in to talk about that time they saw a cyclist do something bad, I just replace "bicyclist" with "velociraptor."
@@ -22,4 +31,3 @@ It started with this Metafilter comment :
 
 Thank you !
 
-This is my first GitHub project and what happens if I press this butto

@@ -1,0 +1,3 @@
+content cyclist-to-velociraptor chrome/content/ contentaccessible=yes
+
+overlay chrome://browser/content/browser.xul  chrome://cyclist-to-velociraptor/content/main.xul

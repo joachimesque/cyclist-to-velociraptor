@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$ENFwl"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="4.0"
+                   em:maxVersion="999.*" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="cyclist-to-velociraptor@github.com"
+                   em:name="Cyclist to Velociraptor"
+                   em:version="1.0"
+                   em:creator="Joachim Robert (w/ help from Steven Frank &amp; Chris Wright)"
+                   em:description="Replaces the text 'cyclist' with 'velociraptor'."
+                   em:homepageURL="https://github.com/joachimesque/cyclist-to-velociraptor">
+    <em:contributor>Steven Frank</em:contributor>
+    <em:contributor>Chris Wright</em:contributor>
+    <em:contributor>Joachim Robert</em:contributor>
+    <em:targetApplication RDF:resource="rdf:#$ENFwl"/>
+  </RDF:Description>
+</RDF:RDF>
